@@ -91,6 +91,11 @@ User information, including hashed passwords and roles, is stored in MongoDB usi
 - ```
   docker run -d -p 5600:27017 -p 5500:27017 --name mongodb mongo:latest
   ```
+For Services,
+- Both the services have packages which are to be installed, I have used pnpm as package manager, any other package managers are also can be used.
+- Install the packages for both client and server like this, npm i [if npm], yarn [if yarn], pnpm i [if pnpm]
+
+For Backend,
 - A .env file has to be kept inside the /server folder.
 - Backend is located at "/server". Using PNPM as package manager.
 - the command `pnpm run dev` will start the backend
