@@ -98,6 +98,7 @@ For Services,
 For Backend,
 - A .env file has to be kept inside the /server folder.
 - Backend is located at "/server". Using PNPM as package manager.
+- You have to convert all the ts files to js files by running `tsc --outDir ./dist --rootDir ./src` inside the project folder
 - the command `pnpm run dev` will start the backend
 
 For Frontend,
